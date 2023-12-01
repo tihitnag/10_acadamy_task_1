@@ -18,7 +18,10 @@
     },
     "[python]": {
         "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {"source.organizeImports": true}    
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
@@ -34,5 +37,5 @@
     "python.linting.flake8Path": "${env:HOME}/.local/bin/flake8",
     "python.formatting.blackPath": "${env:HOME}/.local/bin/black",
     "python.analysis.typeCheckingMode": "basic",
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "none"
 }
